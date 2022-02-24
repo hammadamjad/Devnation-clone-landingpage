@@ -1,0 +1,528 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.root{
+    
+}
+
+/* header content start */
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 72%;
+    min-width: 72%;
+    height: 70px;
+    
+}
+
+.header-content img{
+    width: 206px;
+    height: 41px;
+}
+
+.header-content ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content ul li{
+    list-style-type: none;
+}
+
+
+.header-content ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+}
+
+.header-items-1,.header-items-2{
+    width: 200px;
+    
+}
+
+.btn-signup{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.btn-signup a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 10%;
+}
+
+/* ends here */
+
+.intro-section{
+    width: 72%;
+    height: 500px;
+    background-image: 
+    linear-gradient(to right, rgba(11, 133, 92, 0.4), rgba(15, 142, 131, 0.7)),url('./img/12.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-size: 100% 100%;
+    border-radius: 3%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.intro-section h1{
+    font-size: 55px;
+}
+
+.intro-section h2{
+    max-width: 70%;
+    text-align: center;
+}
+
+.intro-btn{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.intro-btn a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* ends here */
+
+.upcoming-section{
+    width: 72%;
+    overflow: auto;
+}
+
+.upcoming-items{
+    display: flex;
+}
+
+.items-poster{
+    box-shadow: 1px 0px 5px 2px rgba(133,125,125,0.94);
+    border-radius: 10px;
+    height: 400px;
+    margin: 10px 10px;
+}
+
+.items-poster img{
+    width: 300px;
+    border-top-left-radius: 10px;
+}
+
+.upcoming-below-img-content{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming-below-img-content h1{
+    max-width: 95%;
+    font-size: 20px;
+    height: 50px;
+}
+
+.items-about-person span{
+    font-weight: bold;
+}
+
+.btn-register-course
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+.btn-register-course  a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* ends here */
+
+
+.courses-back-colour{
+    background-color: rgb(243, 244, 246);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses-section{
+    width: 72%;
+    /* display: grid; 
+    grid-template-columns: auto auto auto;
+    column-gap: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses-section h1{
+    width: 50%;
+}
+
+.course-description{
+    box-shadow: 1px 0px 5px 2px rgba(133,125,125,0.94);
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 388px;
+    
+}
+
+
+.course-below-img-content{
+    padding: 10px 10px;
+}
+
+.course-con-img{
+    height: 200px;
+    max-width: fit-content;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.course-con-img img{
+    width: 410px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.course-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-name h1{
+    max-width: 70%;
+}
+
+.course-price h4{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.course-instruct {
+    display: flex;
+    
+}
+
+.course-instruct img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.course-success{
+    display: flex;
+}
+
+.graduates-info{
+    display: flex;
+    flex: 1;
+}
+
+.course-rating{
+    display: flex;
+}
+
+.btn-learn-more{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn-learn-more a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ends here */
+
+.success-story-section{
+    width: 72%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.success-headline{
+    width:100%;
+}
+
+.person-info{
+    display: flex;
+    align-items: center;
+}
+.person-info img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.success-people-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px ;
+}
+
+
+.single-person{
+    padding: 10px 20px;
+    background-color: rgb(243, 244, 246);
+    border-radius: 10px;
+    min-width: 350px;
+}
+
+.single-person p{
+    min-width: 180px;
+    font-size: 17px;
+}
+
+
+/* ends here */
+
+.companies-section{
+    width: 72%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5%;
+}
+
+.companies-logo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.companies-logo img{
+    width: 130px;
+}
+
+
+
+/* ends here */
+
+
+.decorative-container{
+    background-color: rgb(17, 24, 39);
+    width: 65%;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.triangle-1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; 
+    height: 0; 
+    border-right: 50rem solid transparent;
+    border-bottom: 200px solid rgb(72, 79, 93);
+  
+    z-index: 1;
+
+}
+
+.triangle-2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0; 
+    height: 0; 
+    border-left: 50rem solid rgb(17, 24, 39);
+    border-bottom: 160px solid rgb(40, 48, 63);
+    border-bottom-right-radius: 20px 20px;
+}
+
+.inner-dec-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dec-content{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dec-content h1{
+    color: white;
+    font-size: 35px;
+    width: 90%;
+}
+
+.dec-cont-button{
+    margin-top: 10px;
+    height: 50px;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.dec-cont-button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* ends here */
+
+footer{
+    width: 65%;
+    height: 200px;
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+    
+}
+
+footer p{
+    flex: 1;
+}
+
+.footer-logos i{
+    width: 30px;
+}
+
+@media only screen and (max-width: 1172px) {
+    .intro-section h2 {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .intro-section h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .header-items-2{
+        float: right;
+    }
+
+}
+
+
+@media only screen and (max-width: 1330px) {
+    
+    .success-story-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .success-headline{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .companies-section{
+        display: flex;
+        flex-direction: column;    
+    }
+
+    .companies-logo{
+        margin-top: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width: 847px) {
+
+    .intro-section h1 {
+        font-size: 30px;
+    }
+    .decorative-container{
+        width: 63%;
+        height: 250px;
+    }
+
+
+}
+
+@media only screen and (max-width: 893px) {
+
+    .success-people-items
+    {
+        display: flex;
+        flex-direction: column;   
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    .header-content{
+        height: 140px;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 655px) {
+    .intro-section h2 {
+        font-size: 15px;
+    }
+    .intro-section h1 {
+        font-size: 25px;
+    }
+}
